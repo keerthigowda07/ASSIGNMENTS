@@ -1,0 +1,77 @@
+Question 2 :Temperature Conversion
+
+Scenario: Bob is working on a weather app that needs to convert temperatures between Celsius and Fahrenheit. He's aware of the conversion formulas but needs to write methods to perform the conversions accurately.
+
+Task: Bob needs your assistance in creating a Java program to handle temperature conversions. He has provided you with the conversion formulas and wants you to guide him through the process of building the necessary methods and user interface.
+
+Scenario Details
+
+- The temperature conversion formulas are as follows:
+
+- Celsius to Fahrenheit: `(C × 9/5) + 32`
+
+- Fahrenheit to Celsius: `(F - 32) × 5/9`
+
+where `C` represents the temperature in Celsius and `F` represents the temperature in Fahrenheit.
+
+Hints:
+
+1. Celsius to Fahrenheit Conversion:
+
+- Create a method named `celsiusToFahrenheit` with the signature: `public static double celsiusToFahrenheit(double celsius)`.
+
+- Inside the method, implement the formula `(celsius × 9/5) + 32` to convert Celsius to Fahrenheit.
+
+2. Fahrenheit to Celsius Conversion:
+
+- Create a method named `fahrenheitToCelsius` with the signature: `public static double fahrenheitToCelsius(double fahrenheit)`.
+
+- Inside the method, implement the formula `(fahrenheit - 32) × 5/9` to convert Fahrenheit to Celsius.
+
+3. User Interaction:
+
+- Utilize the `java.util.Scanner` class to gather user inputs.
+
+- Display a user-friendly menu asking the user to choose between Celsius to Fahrenheit or Fahrenheit to Celsius conversion.
+
+- Depending on the user's choice, call the appropriate conversion method and display the result.
+
+---------------------
+
+Sample Output:1
+
+---------------------
+
+Welcome to the Temperature Conversion Tool!
+
+Select an option:
+
+1. Convert Celsius to Fahrenheit
+
+2. Convert Fahrenheit to Celsius
+
+Enter your choice: 1
+
+Enter the temperature in Celsius: 25
+
+25.0°C is equivalent to 77.0°F
+
+---------------------
+
+Sample Output:2
+
+---------------------
+
+Welcome to the Temperature Conversion Tool!
+
+Select an option:
+
+1. Convert Celsius to Fahrenheit
+
+2. Convert Fahrenheit to Celsius
+
+Enter your choice: 2
+
+Enter the temperature in Fahrenheit: 98.6
+
+98.6°F is equivalent to 37.0°C
